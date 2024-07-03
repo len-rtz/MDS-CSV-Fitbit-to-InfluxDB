@@ -10,7 +10,7 @@ Installation
 
 # Installation
 1. Install Python dependencies:
-pip install pandas influxdb-client
+pip install pandas influxdb_client
 
 3. Set up InfluxDB:
 Install and configure InfluxDB OSS (https://www.influxdata.com/products/influxdb/). Make sure it is running and accessible via HTTP.

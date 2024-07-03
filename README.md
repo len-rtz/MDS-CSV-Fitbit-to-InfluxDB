@@ -1,6 +1,6 @@
 # MDS: Import CSV-Fitbit data in InfluxDB
 
-This Python script is designed to import Fitbit data stored in CSV files into InfluxDB. It utilizes the pandas library to read CSV files and manipulate timestamps, and the influxdb_client library to connect to and write data to InfluxDB. This example uses Fitbitdata from the first month of a crowdsourcing project by Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (https://doi.org/10.5281/zenodo.53894).
+This Jupyter Notebook contains a Python script, which is designed to import Fitbit data stored in CSV files into InfluxDB. It utilizes the pandas library to read CSV files and manipulate timestamps, and the influxdb_client library to connect to and write data to InfluxDB. This example uses Fitbitdata from the first month of a crowdsourcing project by Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (https://doi.org/10.5281/zenodo.53894).
 
 # Requirements
 Python 3.x
@@ -16,7 +16,7 @@ pip install pandas influxdb_client
 Install and configure InfluxDB OSS (https://www.influxdata.com/products/influxdb/). Make sure it is running and accessible via HTTP.
 
 # Usage
-1. Clone this repository or download the script fitbit_data_import.py.
+1. Clone this repository or download the Juypter Notebook fitbit_data_import.ipynb with the script.
 2. Modify the script with your InfluxDB credentials and CSV file paths.
 3. Run the script:
    python fitbit_data_import.py
